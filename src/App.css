@@ -70,6 +70,7 @@ form button {
 .clock section p {
     font-family: 'Oswald', sans-serif;
     font-size: 4rem;
+    margin-top: 22px;
 }
 
 .clock section small {
