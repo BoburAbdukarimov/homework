@@ -46,10 +46,8 @@ function App() {
                <Clock timerDays={timerDays} timerHours={timerHours}
     timerMinutes={timerMinutes} timerSeconds={timerSeconds}/> 
         </div>
-        <form  name="contact" method="POST" data-netlify="true">
-            <textarea  name="message" cols="30" rows="2">
-                Massage ...💌
-            </textarea>
+        <form action="https://formsubmit.co/bobur02k@gmail.com" method="POST">
+        <label> <textarea placeholder='Massage:...💌 ' cols="30" rows="2" name="message"></textarea></label>
             <button type='submit'>send</button>
         </form>
 
